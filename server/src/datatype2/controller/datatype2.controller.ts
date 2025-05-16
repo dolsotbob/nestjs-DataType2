@@ -5,7 +5,7 @@ import { SetUserDto } from '../dto/set-user.dto';
 
 @Controller('datatype2')
 export class Datatype2Controller {
-  constructor(private readonly datatype2Service: Datatype2Service) {}
+  constructor(private readonly datatype2Service: Datatype2Service) { }
 
   @Get('message')
   async getMessage() {
